@@ -1,0 +1,31 @@
+.main-content {
+  padding: 20px;
+  flex: 1;
+}
+
+.welcome-section {
+  background-color: #ff0000;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.featured-rentals {
+  margin-top: 20px;
+}
+
+.rentals-grid {
+  display: flex;
+  justify-content: space-around;
+}
+
+.rental-item {
+  text-align: center;
+}
+
+.rental-item img {
+  width: 100%;
+  border-radius: 10px;
+}
