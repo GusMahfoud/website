@@ -1,8 +1,8 @@
 import React from "react";
 import "./styles/App.css";
-import Sidebar from "./components/Sidebar";
-import Header from "./components/Header";
-import MainContent from "./components/MainContent";
+import Sidebar from "./components/layout/Sidebar";
+import Header from "./components/layout/Header";
+import MainContent from "./components/pages/HomePage/Home";
 
 const App: React.FC = () => {
   return (
