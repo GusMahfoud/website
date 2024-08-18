@@ -1,12 +1,15 @@
-import React from 'react';
-import './MainContent.css';
+import React from "react";
+import "./Home.css";
 
-const MainContent: React.FC = () => {
+const Home: React.FC = () => {
   return (
-    <div className="main-content">
+    <div className="home">
       <section className="welcome-section">
         <h1>Welcome to MOKRentals</h1>
-        <p>Rent Anything, Anytime! From golf clubs to houses, MOKRentals connects you with the items you need.</p>
+        <p>
+          Rent Anything, Anytime! From golf clubs to houses, MOKRentals connects
+          you with the items you need.
+        </p>
       </section>
       <section className="featured-rentals">
         <h2>Featured Rentals</h2>
@@ -32,4 +35,4 @@ const MainContent: React.FC = () => {
   );
 };
 
-export default MainContent;
+export default Home;

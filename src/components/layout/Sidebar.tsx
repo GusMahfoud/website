@@ -1,6 +1,14 @@
-import React from 'react';
-import { FaHome, FaCar, FaTree, FaWrench, FaTv, FaGamepad, FaTshirt } from 'react-icons/fa';
-import './Sidebar.css';
+import React from "react";
+import {
+  FaHome,
+  FaCar,
+  FaTree,
+  FaWrench,
+  FaTv,
+  FaGamepad,
+  FaTshirt,
+} from "react-icons/fa";
+import "../../styles/Sidebar.css";
 
 const Sidebar: React.FC = () => {
   return (
@@ -10,13 +18,27 @@ const Sidebar: React.FC = () => {
       </div>
       <div className="sidebar-menu">
         <ul>
-          <li><FaHome /> House Rentals</li>
-          <li><FaCar /> Vehicles</li>
-          <li><FaTree /> Landscaping Equipment</li>
-          <li><FaWrench /> Utilities & Tools</li>
-          <li><FaTv /> Appliances</li>
-          <li><FaGamepad /> Entertainment</li>
-          <li><FaTshirt /> Clothing</li>
+          <li>
+            <FaHome /> House Rentals
+          </li>
+          <li>
+            <FaCar /> Vehicles
+          </li>
+          <li>
+            <FaTree /> Landscaping Equipment
+          </li>
+          <li>
+            <FaWrench /> Utilities & Tools
+          </li>
+          <li>
+            <FaTv /> Appliances
+          </li>
+          <li>
+            <FaGamepad /> Entertainment
+          </li>
+          <li>
+            <FaTshirt /> Clothing
+          </li>
         </ul>
       </div>
     </div>

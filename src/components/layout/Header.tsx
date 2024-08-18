@@ -1,15 +1,20 @@
-import React from 'react';
-import './Header.css';
+import React from "react";
+import { Link } from "react-router-dom";
+import "../../styles/Header.css";
 
 const Header: React.FC = () => {
   return (
     <header className="header">
-      <input className="search-bar" type="text" placeholder="Search for Rentals..." />
+      <input
+        className="search-bar"
+        type="text"
+        placeholder="Search for Rentals..."
+      />
       <nav className="nav-links">
-        <a href="#">Home</a>
-        <a href="#">Categories</a>
-        <a href="#">Contact Us</a>
-        <a href="#">Profile</a>
+        <Link to="/">Home</Link>
+        <Link to="/categories">Categories</Link>
+        <Link to="/contact">Contact Us</Link>
+        <Link to="/profile">Profile</Link>
       </nav>
     </header>
   );
