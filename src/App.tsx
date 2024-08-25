@@ -4,7 +4,7 @@ import "./styles/App.css";
 import Sidebar from "./components/layout/Sidebar";
 import Header from "./components/layout/Header";
 import Home from "./components/pages/HomePage/Home";
-import Categories from "./components/pages/CategoriesPage/Categories";
+import Profile from "./components/pages/Profile/Profile";
 
 const App: React.FC = () => {
   return (
@@ -15,7 +15,7 @@ const App: React.FC = () => {
           <Header />
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/categories" element={<Categories />} />
+            <Route path="/profile" element={<Profile />} />
           </Routes>
         </div>
       </div>

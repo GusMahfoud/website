@@ -1,0 +1,18 @@
+
+.featured-rentals {
+  margin-top: 20px;
+}
+
+.rentals-grid {
+  display: flex;
+  justify-content: space-around;
+}
+
+.rental-item {
+  text-align: center;
+}
+
+.rental-item img {
+  width: 100%;
+  border-radius: 10px;
+}

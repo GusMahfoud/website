@@ -1,0 +1,75 @@
+.profile-container {
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: left;
+  color: #333;
+}
+
+.profile-info,
+.rental-history {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #444;
+  margin-bottom: 20px;
+}
+
+.info-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.label {
+  font-weight: bold;
+  color: #555;
+}
+
+.value {
+  color: #666;
+}
+
+.update-button {
+  display: block;
+  margin: 20px 0;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.update-button:hover {
+  background-color: #0056b3;
+}
+
+.rental-item {
+  padding: 10px 0;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.rental-item:last-child {
+  border-bottom: none;
+}
+
+.rental-name {
+  font-weight: bold;
+  color: #333;
+}
+
+.rental-date,
+.rental-price {
+  color: #777;
+  font-size: 14px;
+}
