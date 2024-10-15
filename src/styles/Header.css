@@ -1,7 +1,8 @@
 .header {
-  background-color: #ff0000;
-  color: white;
+  background-color: #ffffff;
+  color: black;
   display: flex;
+  border: 1px solid black;
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
@@ -19,7 +20,7 @@
 .nav-links .dropdown-trigger {
   padding: 16px;
   font-size: 16px;
-  color: white;
+  color: black;
   text-decoration: none;
   cursor: pointer;
   display: inline-block;
